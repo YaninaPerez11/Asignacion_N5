@@ -1,0 +1,37 @@
+
+/* Estilo general */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F5F5F5;
+    padding: 20px;
+}
+
+/* Título */
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+/* Tabla periódica */
+.tabla {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.fila {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 5px;
+}
